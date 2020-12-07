@@ -1,14 +1,15 @@
 .titreBordureGauche {
     color: white;
     font-size: 30px;
-    text-align: center;
+    padding-left: 10px;
 }
 #logo{
     filter: grayscale(100%);
     border-radius: 50%;
     border: 10px solid white; 
     height: 100px;
-    margin-left: 55px;    
+    margin-left: 55px;
+    margin-top: 10px;    
    }
    
    .PartieGauche{
@@ -30,10 +31,20 @@
     margin-bottom: 50px;
 }
 
+.partiecontact>p{
+    padding-right: 7px;
+}
 .ProfSkills{
     margin-bottom: 50px;
 }
+.ProfSkills>p{
+    padding-left: 7px;
+    padding-right: 7px;
+}
 
+.LANGUAGE>p{
+    padding-left: 7px;
+}
 
 .PartieDroite{
     display: inline-block;
@@ -53,4 +64,8 @@
 #etoile{
     float: right;
     color: white;
+}
+
+.PartieDroite{
+    font-family: 'Roboto', sans-serif;
 }

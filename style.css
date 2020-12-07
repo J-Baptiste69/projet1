@@ -1,0 +1,56 @@
+.titreBordureGauche {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+#logo{
+    filter: grayscale(100%);
+    border-radius: 50%;
+    border: 10px solid white; 
+    height: 100px;
+    margin-left: 55px;    
+   }
+   
+   .PartieGauche{
+       color: white;
+        font-family: 'Roboto', sans-serif;
+        display: inline-block;
+        background-color: #4a4a4c; 
+        font-weight: 600;
+        
+   }
+        
+.PartieGauche i {
+    color: #11a9f3;
+    font-size: 19px;
+    margin-left: 14px;
+}
+
+.partiecontact{
+    margin-bottom: 50px;
+}
+
+.ProfSkills{
+    margin-bottom: 50px;
+}
+
+
+.PartieDroite{
+    display: inline-block;
+    margin-left: 35px;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: top;
+    font-weight: bolder;
+}
+
+#Watson{
+    color: #11a9f3;
+}
+.PartieDroite h3{
+    color: #11a9f3;
+}
+
+#etoile{
+    float: right;
+    color: white;
+}
